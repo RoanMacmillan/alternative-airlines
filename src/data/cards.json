@@ -1,0 +1,21 @@
+[
+    {
+      "id": "1",
+      "image": "/images/search.svg",
+      "heading": "Simple search",
+      "paragraph": "Easily search and book flights from anywhere in the world"
+    },
+    {
+      "id": "2",
+      "image": "/images/choice.svg",
+      "heading": "Unlimited Choice",
+      "paragraph": "Find the flight you were looking for and pay on your terms"
+    },
+    {
+      "id": "3",
+      "image": "/images/service.svg",
+      "heading": "Expert customer service",
+      "paragraph": "Dedicated customer support team once you have booked"
+    }
+  ]
+  

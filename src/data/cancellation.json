@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "image": "/images/illness.svg",
+      "paragraph": "Illness"
+    },
+    {
+      "id": "2",
+      "image": "/images/weather.svg",
+      "paragraph": "Weather"
+    },
+
+
+    {
+      "id": "3",
+      "image": "/images/refundable.svg",
+      "paragraph": "Refundable booking"
+    },
+
+    {
+      "id": "4",
+      "image": "/images/emergency.svg",
+      "paragraph": "Emergency"
+    },
+    
+    {
+      "id": "5",
+      "image": "/images/breakdown.svg",
+      "paragraph": "Mechanical breakdown"
+    },
+    {
+      "id": "6",
+      "image": "/images/more.svg",
+      "paragraph": "Plus much much more"
+    }
+  ]
+  
+  
