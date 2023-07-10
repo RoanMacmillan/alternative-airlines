@@ -1,15 +1,19 @@
-import React from 'react'
-import Hero from '../containers/Hero'
+import React from "react";
+import Hero from "../containers/Hero";
+import Cards from "../containers/Cards";
+import CancellationGrid from "../containers/CancellationGrid";
+import Payment from "../containers/Payment";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-customWhite">
+      <Hero />
+      <Cards />
+      <Payment />
+      <CancellationGrid />
 
-    <Hero />
-        
-      
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
