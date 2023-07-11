@@ -3,6 +3,8 @@ import Hero from "../containers/Hero";
 import Cards from "../containers/Cards";
 import CancellationGrid from "../containers/CancellationGrid";
 import Payment from "../containers/Payment";
+import Destinations from "../containers/Destinations";
+import Blog from "../containers/Blog";
 
 const Home = () => {
   return (
@@ -10,7 +12,9 @@ const Home = () => {
       <Hero />
       <Cards />
       <Payment />
+      <Destinations />
       <CancellationGrid />
+      <Blog />
 
     </div>
   );

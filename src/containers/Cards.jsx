@@ -3,19 +3,19 @@ import items from "../data/cards.json";
 
 const Cards = () => {
   return (
-    <div className="px-8 pt-10 pb-10 text-center flex flex-col gap-4">
+    <div className="flex flex-col gap-4 px-8 pb-10 pt-10 text-center">
       {items.map((item) => (
         <div
-          className="bg-white rounded-2xl flex flex-col items-center p-8"
+          className="flex flex-col items-center rounded-2xl bg-white p-8"
           key={item.id}
         >
-          <img src={item.image} alt="Card Icon"></img>
+          <img src={item.image} alt="Card Icon" />
 
-          <h2 className="mt-6 text-customDarkBlue text-lg font-normal">
+          <h2 className="mt-6 text-lg font-normal text-customDarkBlue">
             {item.heading}
           </h2>
 
-          <p className="text-customGray text-sm mt-2">{item.paragraph}</p>
+          <p className="mt-2 text-sm text-customGray">{item.paragraph}</p>
         </div>
       ))}
     </div>

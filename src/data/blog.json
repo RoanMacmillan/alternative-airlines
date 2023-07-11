@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "image": "/images/blog/article-one-mobile.jpg",
+      "heading": "Destinations",
+      "paragraph": "Explore our top destinations and plan your perfect trip."
+    },
+    {
+      "id": 2,
+      "image": "/images/blog/article-two-mobile.jpg",
+      "heading": "Travel Tips",
+      "paragraph": "Discover tips from our travel experts to make your trip even better."
+    },
+    {
+      "id": 3,
+      "image": "/images/blog/article-three-mobile.jpg",
+      "heading": "Travel Advice",
+      "paragraph": "Get the latest travel advice to help ensure a safe and enjoyable trip."
+    }
+  ]
+  

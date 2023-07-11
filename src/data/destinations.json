@@ -1,0 +1,39 @@
+[
+    {
+      "image": "/images/destinations/sydney.jpg",
+      "id": 5,
+      "heading": "Sydney",
+      "subheading": "Australia"
+    },
+    {
+      "image": "/images/destinations/melbourne.jpg",
+      "id": 4,
+      "heading": "Melbourne",
+      "subheading": "Australia"
+    },
+    {
+      "image": "/images/destinations/brisbane.jpg",
+      "id": 1,
+      "heading": "Brisbane",
+      "subheading": "Australia"
+    },
+    {
+      "image": "/images/destinations/gold-coast.jpg",
+      "id": 3,
+      "heading": "Gold Coast",
+      "subheading": "Australia"
+    },
+    {
+      "image": "/images/destinations/cairns.jpg",
+      "id": 2,
+      "heading": "Cairns",
+      "subheading": "Australia"
+    },
+    {
+      "image": "/images/destinations/uluru.jpg",
+      "id": 6,
+      "heading": "Uluru",
+      "subheading": "Australia"
+    }
+  ]
+  
