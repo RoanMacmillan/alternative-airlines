@@ -10,19 +10,19 @@ const Destinations = () => {
           src={item.image}
           alt={item.heading}
         />
-        <div className="p-6">
-          <h2 className="text-base font-normal text-customDarkBlue">
+        <div className="p-6 md:p-8">
+          <h2 className="text-base font-normal text-customDarkBlue md:text-xl">
             {item.heading}
           </h2>
-          <h3 className="text-sm text-customGray">{item.subheading}</h3>
+          <h3 className="text-sm text-customGray md:text-base">{item.subheading}</h3>
         </div>
       </>
     );
   };
 
   return (
-    <div className="mb-10">
-      <h2 className="mb-6 mt-6 pl-8 text-xl font-medium leading-[28px] text-customDarkBlue">
+    <div className="mx-auto mt-10 lg:mt-20">
+      <h2 className="mb-6 pl-8 text-xl font-medium leading-[28px] text-customDarkBlue">
         Exploring Australia
       </h2>
 
@@ -30,7 +30,7 @@ const Destinations = () => {
         items={items}
         spaceBetween={16}
         maxWidth="max-w-[352px]"
-        height='h-auto'
+        height="h-auto"
         renderSlide={renderSlide}
       />
     </div>

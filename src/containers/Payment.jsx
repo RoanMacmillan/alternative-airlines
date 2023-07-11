@@ -2,7 +2,7 @@ import React from "react";
 
 const Payment = () => {
   return (
-    <div className="mb-10 px-8 text-center">
+    <div className="mx-auto mt-10 max-w-[1214px] px-8 text-center md:px-[47px] lg:mt-20">
       <div className="rounded-xl bg-white p-8">
         <h2 className="mb-4 mt-4 text-xl font-medium leading-[28px] text-customDarkBlue">
           Buy now, pay later

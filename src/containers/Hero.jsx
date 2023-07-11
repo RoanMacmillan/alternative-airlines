@@ -7,12 +7,12 @@ const Hero = () => {
   return (
     <div
       style={{ backgroundImage: `url(${bgImage})` }}
-      className="flex flex-col items-center justify-center bg-cover bg-center px-8 py-10 text-center text-customDarkBlue"
+      className="flex flex-col items-center justify-center bg-cover bg-center px-8 text-center text-customDarkBlue"
     >
-      <h1 className="text-2xl font-medium">
+      <h1 className="text-2xl font-medium mt-10 md:text-[32px] md:leading-10 md:mt-20">
         Search and book flights to Australia
       </h1>
-      <p className="mt-4">Buy your flights now and pay later</p>
+      <p className="mt-4 md:text-base">Buy your flights now and pay later</p>
       <img
         className="mt-10 w-[106px]"
         src={trustPilot}

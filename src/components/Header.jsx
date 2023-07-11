@@ -5,7 +5,7 @@ import Hamburger from "../assets/icons/menu.svg";
 const Header = () => {
   return (
     <>
-      <header className="flex justify-between items-center p-8 bg-white">
+      <header className="mx-auto flex max-w-[1214px] items-center justify-between bg-white p-8 md:px-[47px]">
         <img
           className="w-[106px]"
           src={Logo}
@@ -13,7 +13,6 @@ const Header = () => {
         />
         <img src={Hamburger} alt="Hamburger Button" />
       </header>
-
     </>
   );
 };
