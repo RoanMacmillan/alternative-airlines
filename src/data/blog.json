@@ -1,21 +1,23 @@
 [
-    {
-      "id": 1,
-      "image": "/images/blog/article-one-mobile.jpg",
-      "heading": "Destinations",
-      "paragraph": "Explore our top destinations and plan your perfect trip."
-    },
-    {
-      "id": 2,
-      "image": "/images/blog/article-two-mobile.jpg",
-      "heading": "Travel Tips",
-      "paragraph": "Discover tips from our travel experts to make your trip even better."
-    },
-    {
-      "id": 3,
-      "image": "/images/blog/article-three-mobile.jpg",
-      "heading": "Travel Advice",
-      "paragraph": "Get the latest travel advice to help ensure a safe and enjoyable trip."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "image": "/images/blog/article-one-mobile.jpg",
+    "imageDesktop": "/images/blog/article-one.jpg",
+    "heading": "Destinations",
+    "paragraph": "The most beautiful locations around the world that you don’t want to miss"
+  },
+  {
+    "id": 2,
+    "image": "/images/blog/article-two-mobile.jpg",
+    "imageDesktop": "/images/blog/article-two.jpg",
+    "heading": "Travel Tips",
+    "paragraph": "What to take with you for the ultimate European adventure"
+  },
+  {
+    "id": 3,
+    "image": "/images/blog/article-three-mobile.jpg",
+    "imageDesktop": "/images/blog/article-three.jpg",
+    "heading": "Travel Advice",
+    "paragraph": "What to take with you for the ultimate European adventure"
+  }
+]

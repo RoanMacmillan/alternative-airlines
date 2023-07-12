@@ -32,3 +32,13 @@
     display: block;
     max-width: 100%;
   }
+
+
+  .arrow {
+    filter: brightness(0) invert(1);
+  }
+
+  .switch {
+    filter: invert(20%) sepia(64%) saturate(3712%) hue-rotate(194deg) brightness(91%) contrast(103%);
+
+  }

@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
+import Tabs from "../components/FormComponents/Tabs";
+import FlightInput from "./FormComponents/FlightInput";
 
 const Form = () => {
   return (
-    <div className='bg-white w-full rounded-2xl mt-10'>
+    <div className="mt-10 w-full rounded-2xl bg-white p-4 max-w-[1120px]">
+      <Tabs />
+
+
+      <FlightInput />
+      
+
       
     </div>
-  )
-}
+  );
+};
 
-export default Form
+export default Form;

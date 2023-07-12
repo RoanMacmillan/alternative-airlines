@@ -1,19 +1,39 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import React from "react";
 
-const CustomSwiper = ({ items, spaceBetween, maxWidth, height, renderSlide }) => {
+
+
+const CustomSwiper = ({
+
+
+  items,
+  spaceBetween,
+  maxWidth,
+  height,
+  renderSlide,
+  slidesOffsetBefore,
+}) => {
+
+  
+
   return (
     <Swiper
       spaceBetween={spaceBetween}
-      slidesPerView={'auto'}
+      slidesPerView={"auto"}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
-      className="px-8"
+      className=""
+      // initialSlide={1}
+      // centeredSlides={true}
+      
     >
       {items.map((item, index) => (
-        <SwiperSlide className={`overflow-hidden rounded-xl bg-white ${height} ${maxWidth}`} key={index}>
-            {renderSlide(item)}
+        <SwiperSlide
+          className={`group relative mx-auto cursor-pointer overflow-hidden rounded-xl bg-white ${height} ${maxWidth}`}
+          key={index}
+        >
+          {renderSlide(item)}
         </SwiperSlide>
       ))}
     </Swiper>
@@ -21,4 +41,3 @@ const CustomSwiper = ({ items, spaceBetween, maxWidth, height, renderSlide }) =>
 };
 
 export default CustomSwiper;
-
