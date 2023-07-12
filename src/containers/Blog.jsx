@@ -49,6 +49,7 @@ const Blog = () => {
         maxWidth="max-w-[352px] custom:max-w-[740px] lg:max-w-[875px]"
         height="custom:max-h-[400px] lg:max-h-[475px]"
         renderSlide={renderSlide}
+        
       />
     </div>
   );

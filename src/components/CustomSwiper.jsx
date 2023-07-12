@@ -2,30 +2,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import React from "react";
 
-
-
 const CustomSwiper = ({
-
-
   items,
   spaceBetween,
   maxWidth,
   height,
   renderSlide,
-  slidesOffsetBefore,
-}) => {
-
   
-
+}) => {
   return (
     <Swiper
       spaceBetween={spaceBetween}
       slidesPerView={"auto"}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
-      className=""
-      // initialSlide={1}
-      // centeredSlides={true}
       
     >
       {items.map((item, index) => (
