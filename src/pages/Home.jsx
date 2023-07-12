@@ -5,6 +5,7 @@ import CancellationGrid from "../containers/CancellationGrid";
 import Payment from "../containers/Payment";
 import Destinations from "../containers/Destinations";
 import Blog from "../containers/Blog";
+import SlickBlog from "../containers/SlickBlog";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Destinations />
       <CancellationGrid />
       <Blog />
+      {/* <SlickBlog /> */}
 
     </div>
   );

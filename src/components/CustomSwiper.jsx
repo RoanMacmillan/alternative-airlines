@@ -8,14 +8,23 @@ const CustomSwiper = ({
   maxWidth,
   height,
   renderSlide,
+  breakpoints,
+  className,
+  slidesPerView,
+  offsetBefore,
+  offsetBeforeAfter,
   
 }) => {
   return (
     <Swiper
       spaceBetween={spaceBetween}
-      slidesPerView={"auto"}
+      slidesPerView={slidesPerView}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
+      breakpoints={breakpoints} 
+      className={className}
+      slidesOffsetBefore={offsetBefore}
+      slidesOffsetAfter={offsetBeforeAfter}
       
     >
       {items.map((item, index) => (
