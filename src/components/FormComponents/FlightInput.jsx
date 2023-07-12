@@ -1,5 +1,5 @@
 import React from "react";
-import swap from "../../assets/icons/swap.png";
+import swap from "../../assets/icons/Swap.png";
 
 const FlightInput = () => {
   return (
