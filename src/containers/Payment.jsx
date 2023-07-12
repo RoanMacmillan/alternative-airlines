@@ -42,6 +42,13 @@ const Payment = () => {
             </div>
           </div>
 
+          <div className=" mx-auto flex w-full items-center justify-center gap-12 md:hidden">
+            <img className="ml-5 w-14" src={klarna} />
+            <img className="mt-6 w-12" src={laybuy} />
+            <img className="mb-8 w-10" src={affirm} />
+            <img className="w-14" src={afterpay} />
+          </div>
+
           <button className="mt-6 rounded-xl bg-customBlue px-5 py-4 text-sm text-white md:mt-10">
             Browse payment methods
           </button>
@@ -49,9 +56,26 @@ const Payment = () => {
 
         <div className="absolute right-[61px] top-[182px] hidden w-[196px] md:block lg:right-[90px] lg:top-[56px] lg:w-[294px] customLg:right-[132px]">
           <img
-            className="ease transition duration-700 group-hover:scale-105"
+            className="ease relative z-10 transition duration-500 group-hover:translate-y-[10px] group-hover:scale-105"
             src={mobileImage}
             alt="Mobile Image"
+          />
+
+          <img
+            className="absolute left-[-68px] top-[190px] ml-5 w-14 transition duration-500 group-hover:translate-x-[-10px] group-hover:translate-y-[-10px] lg:left-[-65px] lg:top-[288px] "
+            src={klarna}
+          />
+          <img
+            className="absolute left-[15px] top-[-66px] mt-6 w-12 transition duration-500 group-hover:translate-x-[-10px] group-hover:translate-y-[-10px] lg:left-[-95px] lg:top-[208px]"
+            src={laybuy}
+          />
+          <img
+            className="absolute right-[10px] top-[-63px] mb-8 w-10 transition duration-500 group-hover:translate-x-[10px] group-hover:translate-y-[-10px] lg:right-[-65px] lg:top-[198px]"
+            src={affirm}
+          />
+          <img
+            className="absolute right-[-40px] top-[60px] w-14 transition duration-500 group-hover:translate-x-[10px] group-hover:translate-y-[-10px]"
+            src={afterpay}
           />
         </div>
       </div>
@@ -60,12 +84,3 @@ const Payment = () => {
 };
 
 export default Payment;
-
-{
-  /* <div className=" mx-auto flex w-full items-center justify-center gap-12">
-          <img className="ml-5 w-14" src={klarna} />
-          <img className="mt-6 w-12" src={laybuy} />
-          <img className="mb-8 w-10" src={affirm} />
-          <img className="w-14" src={afterpay} />
-        </div> */
-}

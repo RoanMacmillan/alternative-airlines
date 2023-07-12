@@ -11,7 +11,7 @@ const CancellationGrid = () => {
             Recommended
           </div>
 
-          <img className="absolute top-[103px] hidden lg:block w-[294px] ease transition duration-700 group-hover:scale-105" src={phoneImage} alt='Mobile Phone'/>
+          <img className="absolute top-[103px] hidden lg:block w-[294px] ease transition duration-700 group-hover:scale-105 group-hover:translate-y-[15px]" src={phoneImage} alt='Mobile Phone'/>
 
         </div>
 
