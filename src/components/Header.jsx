@@ -14,24 +14,24 @@ const Header = () => {
         />
 
         <nav className="ml-10 mr-auto hidden w-full gap-10 text-sm leading-[22px] text-customGray lg:flex">
-          <div className="flex relative group cursor-pointer">
+          <div className="group relative flex cursor-pointer">
             <a>Book flights</a>
             <img src={arrow} alt={arrow} />
-            <div className="h-[2px] bg-customBlue w-full absolute top-8 rounded-[1px] opacity-0 group-hover:opacity-100"></div>
+            <div className="absolute top-8 h-[2px] w-full rounded-[1px] bg-customBlue opacity-0 group-hover:opacity-100"></div>
           </div>
-          <div className="flex relative group cursor-pointer">
+          <div className="group relative flex cursor-pointer">
             <a>Information</a>
             <img src={arrow} alt={arrow} />
-            <div className="h-[2px] bg-customBlue w-full absolute top-8 rounded-[1px] opacity-0 group-hover:opacity-100"></div>
+            <div className="absolute top-8 h-[2px] w-full rounded-[1px] bg-customBlue opacity-0 group-hover:opacity-100"></div>
           </div>
-          <div className="flex relative group cursor-pointer">
+          <div className="group relative flex cursor-pointer">
             <a>Help</a>
             <img src={arrow} alt={arrow} />
-            <div className="h-[2px] bg-customBlue w-full absolute top-8 rounded-[1px] opacity-0 group-hover:opacity-100"></div>
+            <div className="absolute top-8 h-[2px] w-full rounded-[1px] bg-customBlue opacity-0 group-hover:opacity-100"></div>
           </div>
-          <div className="flex relative group cursor-pointer">
+          <div className="group relative flex cursor-pointer">
             <a>Travel Agents</a>
-            <div className="h-[2px] bg-customBlue w-full absolute top-8 rounded-[1px] opacity-0 group-hover:opacity-100"></div>
+            <div className="absolute top-8 h-[2px] w-full rounded-[1px] bg-customBlue opacity-0 group-hover:opacity-100"></div>
           </div>
 
           <a className="ml-auto">Manage booking</a>

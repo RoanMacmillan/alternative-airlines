@@ -3,7 +3,7 @@ import items from "../data/cards.json";
 
 const Cards = () => {
   return (
-    <div className="mx-auto flex max-w-[1214px] flex-col gap-4 px-8 mt-10 text-center md:gap-8 md:px-[47px] lg:flex-row lg:mt-20">
+    <div className="mx-auto mt-10 flex max-w-[1214px] flex-col gap-4 px-8 text-center md:gap-8 md:px-[47px] lg:mt-20 lg:flex-row">
       {items.map((item) => (
         <div
           className="flex flex-col items-center rounded-2xl bg-white p-8 lg:p-10"

@@ -67,7 +67,6 @@ const Destinations = () => {
         items={items}
         spaceBetween={16}
         maxWidth="max-w-[352px]"
-        height="h-auto"
         renderSlide={renderSlide}
         slidesPerView={"auto"}
         offsetBefore={offset}
@@ -76,13 +75,6 @@ const Destinations = () => {
           800: {
             spaceBetween: 32,
           },
-
-          // 1024: {
-          //   centeredSlides: true,
-          //   activeSlide: 1,
-          //   initialSlide: 1,
-          //   spaceBetween: 32,
-          // },
         }}
       />
     </div>

@@ -6,14 +6,12 @@ const CustomSwiper = ({
   items,
   spaceBetween,
   maxWidth,
-  height,
   renderSlide,
   breakpoints,
   className,
   slidesPerView,
   offsetBefore,
   offsetBeforeAfter,
-  
 }) => {
   return (
     <Swiper
@@ -21,15 +19,14 @@ const CustomSwiper = ({
       slidesPerView={slidesPerView}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
-      breakpoints={breakpoints} 
+      breakpoints={breakpoints}
       className={className}
       slidesOffsetBefore={offsetBefore}
       slidesOffsetAfter={offsetBeforeAfter}
-      
     >
       {items.map((item, index) => (
         <SwiperSlide
-          className={`group relative mx-auto cursor-pointer overflow-hidden rounded-xl bg-white ${height} ${maxWidth}`}
+          className={`group relative mx-auto cursor-pointer overflow-hidden rounded-xl bg-white ${maxWidth}`}
           key={index}
         >
           {renderSlide(item)}

@@ -45,11 +45,10 @@ const Blog = () => {
 
       <CustomSwiper
         className="px-8 md:px-[47px] custom:px-0"
-        slidesPerView={'auto'}
+        slidesPerView={"auto"}
         items={items}
         spaceBetween={16}
         maxWidth="max-w-[352px] custom:max-w-[740px] lg:max-w-[875px]"
-        height="custom:max-h-[400px] lg:max-h-[475px]"
         renderSlide={renderSlide}
         breakpoints={{
           800: {

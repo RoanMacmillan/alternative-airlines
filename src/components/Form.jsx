@@ -4,14 +4,9 @@ import FlightInput from "./FormComponents/FlightInput";
 
 const Form = () => {
   return (
-    <div className="mt-10 w-full rounded-2xl bg-white p-4 max-w-[1120px]">
+    <div className="mt-10 w-full max-w-[1120px] rounded-2xl bg-white p-4">
       <Tabs />
-
-
       <FlightInput />
-      
-
-      
     </div>
   );
 };
